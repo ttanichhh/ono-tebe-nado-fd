@@ -15,29 +15,40 @@
 }
 
 .links-header {
+  padding-left: 50px;
+}
+
+.links-header-list {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding-left: 50px;
+  gap: 14px;
+}
+
+.link-header-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.link-header-item:not(:first-child)::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+  border: 1px solid currentColor;
+  border-radius: 50%;
 }
 
 .link-header {
   display: inline-block;
-  padding: 0px 0px;
   color: #000000;
+  text-underline-offset: 4px;
 }
 
 .link-header-header {
   text-decoration: none;
-}
-
-.link-header:not(:last-child)::after {
-  content: "◦";
-  margin: 3px 3px;
-  vertical-align: middle;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 0.8em;
 }
 
 .logo {
