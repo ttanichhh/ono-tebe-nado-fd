@@ -1,1 +1,5 @@
-https://github.com/ttanichhh/ono-tebe-nado-fd
+# Оно тебе надо
+
+Учебный проект Яндекс Практикума — вёрстка страницы аукциона вещей, в которые никто не верил. Страница создана по макету Figma на HTML и CSS с использованием Flexbox и Grid.
+
+[Репозиторий проекта](https://github.com/ttanichhh/ono-tebe-nado-fd)
